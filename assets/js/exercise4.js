@@ -1,9 +1,8 @@
-document.addEventListener('keydown', function (event) {
+let div1= document.querySelector('#div1')
+div1.addEventListener('keydown', function (event) {
     if (event.key === 'a') {
-    /* Cambiar a color 1 */
+    div1.style.backgroundColor= "red"
     } else if (event.key === 's') {
-    /* Cambiar a color 2 */
+    div1.style.backgroundColor= "blue"
     }
     })
-    
-
